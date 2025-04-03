@@ -38,10 +38,21 @@ app.get("/listings/new", (req, res) => {
     res.render("listings/new.ejs");
  });
 
-app.get("/listings/:id", async (req, res) => {
-    let { id } = req.params;
-    const listing = await Listing.findById(id);
-    res.render("listings/show.ejs", { listing });
+ app.get("/listings/:id", async (req, res) => {
+    try {
+        const { id } = req.params;
+        if (!mongoose.Types.ObjectId.isValid(id)) {
+            return res.status(400).send("Invalid ID format");
+        }
+        const listing = await Listing.findById(id);
+        if (!listing) {
+            return res.status(404).send("Listing not found");
+        }
+        res.render("listings/show.ejs", { listing });
+    } catch (err) {
+        console.error(err);
+        res.status(500).send("Internal Server Error");
+    }
 });
 
 // app.post("/listings", async (req, res) => {
@@ -63,6 +74,9 @@ app.get("/listings/:id/edit", async (req, res) => {
 
 app.put("/listings/:id", async (req, res) => {
     let { id } = req.params;
+    if (!mongoose.Types.ObjectId.isValid(id)) {
+        return res.status(400).send("Invalid ID format");
+    }
     await Listing.findByIdAndUpdate(id, { ...req.body.listing});
     res.redirect(`/listings/${id}`);
 });
