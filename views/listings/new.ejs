@@ -3,7 +3,7 @@
       <div class="col-8 offset-2">
         <br /><br />
        <h3>Create a new Listing</h3>
-       <form method="POST" action="/listings">
+       <form method="POST" action="/listings" novalidate class="needs-validation">
          <div class="mb-3">
            <label for="title" class="form-label">Title</label>    
           <input 
@@ -11,14 +11,18 @@
             placeholder="Add a catchy title" 
             type="text" 
             class="form-control"
+            required
           />
+          <div class="valid-feedback">Title looks good!</div>
          </div>
          <div class="mb-3">
             <label for="description" class="form-label">Description</label>  
             <textarea 
               name="listing[description]"
               class="form-control"
+              required
             ></textarea>
+            <div class="invalid-feedback">Please enter a short description</div>
          </div>
          <div class="mb-3">
             <label for="image" class="form-label">Image Link</label>
@@ -31,9 +35,10 @@
             <input 
             name="listing[price]" 
             placeholder="1200" 
-            type="number" 
             class="form-control"
+            required
             />
+            <div class="invalid-feedback">Price should be valid</div>
         </div>
           
         <div class="mb-3 col-md-8">
@@ -43,13 +48,16 @@
             placeholder="India" 
             type="text" 
             class="form-control"
+            required
             />
+            <div class="invalid-feedback">Country name should be valid</div>
         </div>
     </div>
     
     <div class="mb-3">
         <label for="location" class="form-label">location</label>
-        <input name="listing[location]" placeholder="Mumbai, Maharashtra" type="text" class="form-control"/>
+        <input name="listing[location]" placeholder="Mumbai, Maharashtra" type="text" class="form-control" required/>
+        <div class="invalid-feedback">Location should be valid</div>
     </div>
         <button class="btn btn-dark add-btn mt-3">Add</button>
     </form>
