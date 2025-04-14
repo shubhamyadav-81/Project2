@@ -209,7 +209,7 @@ const sampleListings = [
     {
     title: "Eco-Friendly Treehouse Retreat",  
     description: "Stay in an eco-friendly treehouse nestled in the forest. It's the perfect escape for nature lovers.",  
-    image: "https://images.unsplash.com/photo-1488462237308-ecaa28b729d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c2t5JTIwdmFjYXRpb258ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60",  
+    image: "https://images.unsplash.com/photo-1580041065738-e72023775cdc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTYwfHxob3RlbHN8ZW58MHx8MHx8fDA%3D",  
     price: 750,  
     location: "Costa Rica",  
     country: "Costa Rica",  
@@ -245,10 +245,10 @@ const sampleListings = [
     {
     title: "Luxury Villa in the Maldives",  
     description: "Indulge in luxury in this overwater villa in the Maldives with stunning views of the Indian Ocean.",  
-    image: "https://images.unsplash.com/photo-1439066615861-d1af74d74000?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bGFrZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",  
+    image: "https://plus.unsplash.com/premium_photo-1669748158379-b1460474807c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTM3fHxob3RlbHN8ZW58MHx8MHx8fDA%3D",  
     price: 6000,  
     location: "Maldives",  
-    country: "Maldives",  
+    country: "Maldives",
     },
 
     {
@@ -263,7 +263,7 @@ const sampleListings = [
     {
     title: "Beachfront Bungalow in Bali",   
     description: "Relax in this stunning beachfront bungalow with a private pool and ocean views.",  
-    image: "https://images.unsplash.com/photo-1602391833977-358a52198938?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fGNhbXBpbmd8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60",  
+    image: "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTUwfHxob3RlbHN8ZW58MHx8MHx8fDA%3D",  
     price: 1800,  
     location: "Bali",  
     country: "Indonesia",
@@ -272,7 +272,7 @@ const sampleListings = [
     {
     title: "Mountain View Cabin in Banff",   
     description: "Enjoy breathtaking mountain views from this cozy cabin in the Canadian Rockies.",  
-    image: "https://images.unsplash.com/photo-1521401830884-6c03c1c87ebb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGxvZGdlfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",  
+    image: "https://images.unsplash.com/photo-1560200353-ce0a76b1d438?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTMyfHxob3RlbHN8ZW58MHx8MHx8fDA%3D",  
     price: 1500,  
     location: "Banff",  
     country: "Canada",
@@ -281,7 +281,7 @@ const sampleListings = [
     {
     title: "Art Deco Apartment in Miami",   
     description: "Step into the glamour of the 1920s in this stylish Art Deco apartment in South Beach.",  
-    image: "https://plus.unsplash.com/premium_photo-1670963964797-942df1804579?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGxvZGdlfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",  
+    image: "https://images.unsplash.com/photo-1570213489059-0aac6626cade?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTM0fHxob3RlbHN8ZW58MHx8MHx8fDA%3D",  
     price: 1600,  
     location: "Miami",  
     country: "United States",
@@ -290,7 +290,7 @@ const sampleListings = [
     {
     title: "Tropical Villa in Phuket",   
     description: "Escape to paradise in this luxurious villa with a private infinity pool.",  
-    image: "https://images.unsplash.com/photo-1470165301023-58dab8118cc9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGxvZGdlfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",  
+    image: "https://images.unsplash.com/photo-1732038330792-87e6dfeded6f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODd8fGhvdGVsc3xlbnwwfHwwfHx8MA%3D%3D",  
     price: 3000,  
     location: "Phuket",  
     country: "Thailand", 
@@ -299,7 +299,7 @@ const sampleListings = [
     {
     title: "Historic Castle in Scotland",   
     description: "Live like royalty in this historic castle nestled in the scenic Scottish Highlands.",  
-    image: "https://images.unsplash.com/photo-1585543805890-6051f7829f98?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGJlYWNoJTIwdmFjYXRpb258ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60",  
+    image: "https://images.unsplash.com/photo-1598598795009-f80c5072e665?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDJ8fGhvdGVsc3xlbnwwfHwwfHx8MA%3D%3D",  
     price: 4000,  
     location: "Scottish Highlands",  
     country: "United Kingdom",  
@@ -308,7 +308,7 @@ const sampleListings = [
     {
     title: "Desert Oasis in Dubai",   
     description: "Experience luxury in the middle of the desert in this opulent oasis with a private pool.",  
-    image: "https://images.unsplash.com/photo-1518684079-3c830dcef090?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZHViYWl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60",  
+    image: "https://images.unsplash.com/photo-1549294413-26f195200c16?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fGhvdGVsc3xlbnwwfHwwfHx8MA%3D%3D",  
     price: 5000,  
     location: "Dubai",  
     country: "United Arab Emirates",  
@@ -317,7 +317,7 @@ const sampleListings = [
     {
     title: "Rustic Log Cabin in Montana",   
     description: "Unplug and unwind in this cozy log cabin surrounded by the natural beauty of Montana.",  
-    image: "https://images.unsplash.com/photo-1586375300773-8384e3e4916f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGxvZGdlfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",  
+    image: "https://images.unsplash.com/photo-1625244695851-1fc873f942bc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGhvdGVsc3xlbnwwfHwwfHx8MA%3D%3D",  
     price: 1100,  
     location: "Montana",  
     country: "United States",  
@@ -326,7 +326,7 @@ const sampleListings = [
     {
     title: "Beachfront Villa in Greece",   
     description: "Enjoy the crystal-clear waters of the Mediterranean in this beautiful beachfront villa.",  
-    image: "https://images.unsplash.com/photo-1602343168117-bb8ffe3e2e9f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dmlsbGF8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60",  
+    image: "https://images.unsplash.com/photo-1596436889106-be35e843f974?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGhvdGVsc3xlbnwwfHwwfHx8MA%3D%3D",  
     price: 2500,  
     location: "Mykonos",  
     country: "Greece",  
@@ -335,16 +335,16 @@ const sampleListings = [
     {
     title: "Eco-Friendly Treehouse Retreat",   
     description: "Stay in an eco-friendly treehouse nestled in the forest for the perfect escape into nature.",  
-    image: "https://images.unsplash.com/photo-1488462237308-ecaa28b729d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c2t5JTIwdmFjYXRpb258ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60",  
+    image: "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWxzfGVufDB8fDB8fHww",  
     price: 750,  
     location: "Costa Rica",  
     country: "Goa",
     },
 
     {
-    title: "Luxury Villa in the Maldives",   
-    description: "Indulge in luxury in this overwater villa with stunning views of the Indian Ocean.",  
-    image: "https://images.unsplash.com/photo-1439066615861-d1af74d74000?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bGFrZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",  
+    title: "Luxury Villa in the london",   
+    description: "Indulge in luxury in this overwater villa with stunning views of the london.",  
+    image: "https://images.unsplash.com/photo-1540541338287-41700207dee6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",  
     price: 6000,  
     location: "Maldives",  
     country: "Maldives",
